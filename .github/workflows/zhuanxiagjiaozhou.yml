@@ -1,29 +1,28 @@
 name: zhuanxiagjiaozhou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
-
-jobs:  # 6812
+    - cron: '6 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaozhou
         env:
-          hzi5: ${{ secrets.hzi5 }}
+          uzvw0: ${{ secrets.uzvw0 }}
         run: |
-          echo $hzi5 | jq -r .rxql815 | /bin/bash
-          echo $ta197 | jq -r .dvk9 | /bin/bash
-          echo $xnc0904 | jq -r .xu936 | /bin/bash
-          echo $c72748 | jq -r .ocdw36163 | /bin/bash
-          echo $p72 | jq -r .jvxqp1 | /bin/bash
-          echo $a54110 | jq -r .yfk8528 | /bin/bash
-          echo $e69 | jq -r .jpa4812 | /bin/bash
-          echo $a26113 | jq -r .qus1451 | /bin/bash
-          echo $rymb25 | jq -r .hul703 | /bin/bash
-          echo $by3637 | jq -r .oeww97 | /bin/bash
-          echo $r35 | jq -r .f0368 | /bin/bash
+          echo $uzvw0 | jq -r .vxnx90 | /bin/bash
+          echo $e4499 | jq -r .cpqk346 | /bin/bash
+          echo $af21809 | jq -r .no9 | /bin/bash
+          echo $eprrf0537 | jq -r .ggyed2764 | /bin/bash
+          echo $sjy65 | jq -r .wma825 | /bin/bash
+          echo $wxcw3 | jq -r .lxitt8 | /bin/bash
+          echo $d8930 | jq -r .bum306 | /bin/bash
+          echo $oyfd0 | jq -r .gtk5892 | /bin/bash
+          echo $ow4 | jq -r .l97707 | /bin/bash
+          echo $wfud964 | jq -r .tzkb78119 | /bin/bash
+          echo $xpc3 | jq -r .ieqe69254 | /bin/bash
+          echo $cpo70 | jq -r .lq2 | /bin/bash
+          echo $weves3624 | jq -r .bdgxz267 | /bin/bash
 
