@@ -3,7 +3,8 @@ name: zhuanxiagjiaozhou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
+    - cron: '9 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaozhou
         env:
-          belij014: ${{ secrets.belij014 }}
+          mf06680: ${{ secrets.mf06680 }}
         run: |
-          echo $belij014 | jq -r .q7376 | /bin/bash
-          echo $c2 | jq -r .divtt47224 | /bin/bash
-          echo $yzlqz652 | jq -r .gr5901 | /bin/bash
-          echo $jd79330 | jq -r .o055 | /bin/bash
-          echo $m4235 | jq -r .qxr39 | /bin/bash
-          echo $mcnq01146 | jq -r .lpzp7734 | /bin/bash
-          echo $wlete1128 | jq -r .bjrcy88 | /bin/bash
-          echo $nwhsl37 | jq -r .ngvk68 | /bin/bash
-          echo $nqkig24074 | jq -r .lwc0 | /bin/bash
-          echo $bogci9 | jq -r .rgv2656 | /bin/bash
+          echo $mf06680 | jq -r .ntpc32168 | /bin/bash
+          echo $jw724 | jq -r .fgvre25683 | /bin/bash
+          echo $ddy704 | jq -r .ewcn0 | /bin/bash
+          echo $qdcg92919 | jq -r .nvp7250 | /bin/bash
+          echo $fww7925 | jq -r .zoze34282 | /bin/bash
+          echo $aaigh065 | jq -r .opusp94481 | /bin/bash
+          echo $osfym338 | jq -r .mker50814 | /bin/bash
+          echo $jeiy08 | jq -r .jx13 | /bin/bash
+          echo $dabab452 | jq -r .ou57432 | /bin/bash
+          echo $fd6673 | jq -r .rq76 | /bin/bash
+          echo $zo5 | jq -r .mu1 | /bin/bash
 
